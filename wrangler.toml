@@ -1,0 +1,9 @@
+name = "my-cloudflare-project"
+type = "javascript"
+
+[site]
+bucket = "./public" # The directory with your static files
+entry-point = "functions"
+
+[env.production]
+site = { bucket = "./public" }
