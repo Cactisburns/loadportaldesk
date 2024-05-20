@@ -1,6 +1,19 @@
 {
-    "name": "turnstile-demo",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT"
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "your-build-command"
+  },
+  "dependencies": {
+    "your-dependency": "version"
+  },
+  "devDependencies": {
+    "your-dev-dependency": "version"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
 }
