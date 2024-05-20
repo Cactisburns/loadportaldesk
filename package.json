@@ -1,0 +1,15 @@
+{
+  "name": "my-cloudflare-project",
+  "version": "1.0.0",
+  "description": "A demo project for Cloudflare Pages",
+  "main": "functions/turnstileHandler.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "build": "wrangler publish"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
+}
