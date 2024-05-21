@@ -1,18 +1,14 @@
 {
-  "name": "your-project-name",
+  "name": "my-cloudflare-project",
   "version": "1.0.0",
-  "description": "Your project description",
-  "main": "index.js",
+  "description": "A demo project for Cloudflare Pages",
+  "main": "functions/turnstileHandler.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "your-build-command"
+    "start": "wrangler dev",
+    "build": "wrangler publish"
   },
-  "dependencies": {
-    "your-dependency": "version"
-  },
-  "devDependencies": {
-    "your-dev-dependency": "version"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "keywords": [],
   "author": "Your Name",
   "license": "ISC"
